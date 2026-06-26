@@ -1,0 +1,26 @@
+{
+  "description": "Tracks which source files have been processed into notes. Notes are regenerated only when a file's MD5 hash changes (i.e., content was modified).",
+  "last_run": "2026-06-27",
+  "processed": {
+    "Arrays/grp1.js": {
+      "md5": "36e8216846b31d25524cfc806428b6c8",
+      "notes_file": "Notes/Arrays_grp1_notes.md",
+      "processed_on": "2026-06-27"
+    },
+    "Arrays/grp2.js": {
+      "md5": "c2e2962cd2346f54048a395d649255c4",
+      "notes_file": "Notes/Arrays_grp2_notes.md",
+      "processed_on": "2026-06-27"
+    },
+    "Arrays/grp3.js": {
+      "md5": "988384e5fbee0d3a673ae25efad6119f",
+      "notes_file": "Notes/Arrays_grp3_notes.md",
+      "processed_on": "2026-06-27"
+    },
+    "Arrays/grp4.js": {
+      "md5": "76430657d9246b82f45dd1de1666dff2",
+      "notes_file": "Notes/Arrays_grp4_notes.md",
+      "processed_on": "2026-06-27"
+    }
+  }
+}
