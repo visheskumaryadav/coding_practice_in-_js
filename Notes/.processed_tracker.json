@@ -1,6 +1,6 @@
 {
   "description": "Tracks which source files have been processed into notes. Notes are regenerated only when a file's MD5 hash changes.",
-  "last_run": "2026-06-27",
+  "last_run": "2026-06-28",
   "processed": {
     "Code/Arrays/grp1.js": {
       "md5": "36e8216846b31d25524cfc806428b6c8",
@@ -48,6 +48,24 @@
       "md5": "e76d20bc47b467272ce2d2bba56be312",
       "notes_file": "Notes/Objects/Objects_grp1_notes.md",
       "processed_on": "2026-06-27",
+      "processed_by": "claude"
+    },
+    "Code/Objects/grp2.js": {
+      "md5": "17b91774f8d643cab721129e6bb9bc3c",
+      "notes_file": "Notes/Objects/Objects_grp2_notes.md",
+      "processed_on": "2026-06-28",
+      "processed_by": "claude"
+    },
+    "Code/Objects/grp3.js": {
+      "md5": "f7e932351226bd0f6bb0811c92042842",
+      "notes_file": "Notes/Objects/Objects_grp3_notes.md",
+      "processed_on": "2026-06-28",
+      "processed_by": "claude"
+    },
+    "Code/Objects/grp4.js": {
+      "md5": "61d64bf2f85be847a1f80813e59133d7",
+      "notes_file": "Notes/Objects/Objects_grp4_notes.md",
+      "processed_on": "2026-06-28",
       "processed_by": "claude"
     }
   }
