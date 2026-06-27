@@ -1,55 +1,54 @@
 {
-  "description": "Tracks which source files have been processed into notes. Notes are regenerated only when a file's MD5 hash changes (i.e., content was modified).",
+  "description": "Tracks which source files have been processed into notes. Notes are regenerated only when a file's MD5 hash changes.",
   "last_run": "2026-06-27",
   "processed": {
-    "Arrays/grp1.js": {
+    "Code/Arrays/grp1.js": {
       "md5": "36e8216846b31d25524cfc806428b6c8",
-      "notes_file": "Notes/Arrays_grp1_notes.md",
-      "notes_md5": null,
+      "notes_file": "Notes/Arrays/Arrays_grp1_notes.md",
       "processed_on": "2026-06-27",
       "processed_by": "claude"
     },
-    "Arrays/grp2.js": {
+    "Code/Arrays/grp2.js": {
       "md5": "c2e2962cd2346f54048a395d649255c4",
-      "notes_file": "Notes/Arrays_grp2_notes.md",
-      "notes_md5": null,
+      "notes_file": "Notes/Arrays/Arrays_grp2_notes.md",
       "processed_on": "2026-06-27",
       "processed_by": "claude"
     },
-    "Arrays/grp3.js": {
+    "Code/Arrays/grp3.js": {
       "md5": "988384e5fbee0d3a673ae25efad6119f",
-      "notes_file": "Notes/Arrays_grp3_notes.md",
-      "notes_md5": null,
+      "notes_file": "Notes/Arrays/Arrays_grp3_notes.md",
       "processed_on": "2026-06-27",
       "processed_by": "claude"
     },
-    "Arrays/grp4.js": {
+    "Code/Arrays/grp4.js": {
       "md5": "76430657d9246b82f45dd1de1666dff2",
-      "notes_file": "Notes/Arrays_grp4_notes.md",
-      "notes_md5": null,
+      "notes_file": "Notes/Arrays/Arrays_grp4_notes.md",
       "processed_on": "2026-06-27",
       "processed_by": "claude"
     },
-    "Arrays/grp5.js": {
+    "Code/Arrays/grp5.js": {
       "md5": "a09be271f00c4d3dbfa6febff38f70de",
-      "notes_file": "Notes/Arrays_grp5_notes.md",
-      "notes_md5": "98e66ba7ad50fa3a2a26fb4cbb2c4f8e",
+      "notes_file": "Notes/Arrays/Arrays_grp5_notes.md",
       "processed_on": "2026-06-27",
       "processed_by": "manual"
     },
-    "Arrays/grp7.js": {
+    "Code/Arrays/grp7.js": {
       "md5": "acab92de92c35e8b521a52df9f8f77df",
-      "notes_file": "Notes/Arrays_grp7_notes.md",
-      "notes_md5": "a5dff5ed32cdd5144daab4e87eac3453",
+      "notes_file": "Notes/Arrays/Arrays_grp7_notes.md",
       "processed_on": "2026-06-27",
       "processed_by": "manual"
     },
-    "Arrays/grp8.js": {
+    "Code/Arrays/grp8.js": {
       "md5": "ce5a037425cff546595fe029231939c6",
-      "notes_file": "Notes/Array_grp8_notes.md",
-      "notes_md5": "9ccefe5ac25b48de86cd0b753487d2d4",
+      "notes_file": "Notes/Arrays/Array_grp8_notes.md",
       "processed_on": "2026-06-27",
       "processed_by": "manual"
+    },
+    "Code/Objects/grp1.js": {
+      "md5": "e76d20bc47b467272ce2d2bba56be312",
+      "notes_file": "Notes/Objects/Objects_grp1_notes.md",
+      "processed_on": "2026-06-27",
+      "processed_by": "claude"
     }
   }
 }
