@@ -45,6 +45,36 @@ Learning JS by solving coding problems, organized by topic and difficulty.
 | 1 | Flatten `[[1,2],[3,4],[5,6]]` into `[1,2,3,4,5,6]` — using `flat()`, `reduce`, and loops. | `flat`, `reduce`, `spread` |
 | 2 | Chunk `[1,2,3,4,5,6]` into groups of 2: `[[1,2],[3,4],[5,6]]`. Write a `chunk(arr, size)` function. | `slice`, loops |
 
+#### [grp5.js](Arrays/grp5.js) — HOF Chaining (filter + map + reduce)
+
+| # | Question | Key Methods |
+|---|----------|-------------|
+| 1 | Filter delivered orders, then map to get just product names — in one chain. | `filter`, `map` |
+| 2 | Find the total price of all undelivered orders using filter + reduce. | `filter`, `reduce` |
+| 3 | Convert valid numeric strings to numbers, ignore non-numeric ones. | `filter`, `map`, `Number`, `Number.isNaN` |
+| 4 | Get the sum of squares of only the even numbers — in one chain. | `filter`, `map`, `reduce` |
+| 5 | Group items by category using reduce. | `reduce`, `??=` |
+
+#### [grp7.js](Arrays/grp7.js) — Mutation vs Immutability
+
+| # | Question | Key Methods |
+|---|----------|-------------|
+| 1 | Sort an array — did the original change? Protect the original using spread. | `sort`, `spread` |
+| 2 | Write `addToEnd(arr, item)` — mutating version and non-mutating version. | `push`, `spread` |
+| 3 | Call `arr.reverse()` — what happened to the original? Fix it. | `reverse`, `spread` |
+| 4 | Categorize methods into mutates-original vs returns-new-array. | conceptual |
+| 5 | Write `removeItem(arr, index)` without mutating the original using slice only. | `slice`, `spread` |
+
+#### [grp8.js](Arrays/grp8.js) — Destructuring and Spread
+
+| # | Question | Key Methods |
+|---|----------|-------------|
+| 1 | Destructure the first two elements of `[10,20,30,40,50]` into `a` and `b`. | destructuring |
+| 2 | Skip the first element, grab the second, collect the rest into `remaining`. | `, ` skip, `...rest` |
+| 3 | Write `getFirstAndRest(arr)` using destructuring — two ways. | destructuring in params |
+| 4 | Use spread to merge two arrays and insert `99` in the middle. | `spread` |
+| 5 | Spread copy vs reference assignment — verify original unchanged. | `spread`, `const` vs reference |
+
 ---
 
 ### Notes/
@@ -55,3 +85,6 @@ Learning JS by solving coding problems, organized by topic and difficulty.
 | [Arrays_grp2_notes.md](Notes/Arrays_grp2_notes.md) | map, filter, reduce (sum, product, max, min) |
 | [Arrays_grp3_notes.md](Notes/Arrays_grp3_notes.md) | sort gotchas, object sorting, find/findIndex, every/some |
 | [Arrays_grp4_notes.md](Notes/Arrays_grp4_notes.md) | flat/flatten techniques, chunking arrays |
+| [Arrays_grp5_notes.md](Notes/Arrays_grp5_notes.md) | HOF chaining, filter+map+reduce, groupBy pattern, `??=` operator |
+| [Arrays_grp7_notes.md](Notes/Arrays_grp7_notes.md) | mutation vs immutability, mutating methods table, safe alternatives, `toSorted`/`toReversed` |
+| [Array_grp8_notes.md](Notes/Array_grp8_notes.md) | destructuring, rest element, spread copy vs reference, `const` behavior |
