@@ -7,7 +7,7 @@ Project Structure
 ─────────────────
 Code/
   ├── Arrays/          ← Array practice problems (grp1–grp8)
-  └── Objects/         ← Object practice problems (grp1–...)
+  └── Objects/         ← Object practice problems (grp1–grp4)
 Notes/
   ├── Arrays/          ← Notes & explanations for each array group
   └── Objects/         ← Notes & explanations for each object group
@@ -16,7 +16,8 @@ README.md              ← This file (index of everything)
 
 ---
 
-## Arrays
+<details>
+<summary><h2>Arrays</h2></summary>
 
 ### Code Files
 
@@ -99,9 +100,12 @@ README.md              ← This file (index of everything)
 | [Arrays_grp7_notes.md](Notes/Arrays/Arrays_grp7_notes.md) | mutation vs immutability, mutating methods table, safe alternatives |
 | [Array_grp8_notes.md](Notes/Arrays/Array_grp8_notes.md) | destructuring, rest element, spread copy vs reference, `const` behavior |
 
+</details>
+
 ---
 
-## Objects
+<details>
+<summary><h2>Objects</h2></summary>
 
 ### Code Files
 
@@ -115,8 +119,43 @@ README.md              ← This file (index of everything)
 | 4 | Add, update, and delete properties on an existing object. | `=`, `delete` |
 | 5 | Check if property exists — `in` operator, `hasOwnProperty`, `Object.hasOwn`. | `in`, `Object.hasOwn` |
 
+#### [grp2.js](Code/Objects/grp2.js) — Shorthand, Computed Keys, Methods, `this`
+
+| # | Question | Key Methods |
+|---|----------|-------------|
+| 1 | Create user object verbose, then rewrite with shorthand property syntax. | shorthand `{ name }` |
+| 2 | Create object with a dynamic/computed key from a variable. | `[variable]: value` |
+| 3 | Add `greet()` method to object. Rewrite with shorthand method syntax. | methods, `this` |
+| 4 | Create a calculator object with add, subtract, multiply, divide. | arrow functions in objects |
+| 5 | Method using `this` to access another property (grade based on marks). | `this` |
+
+#### [grp3.js](Code/Objects/grp3.js) — Destructuring, Spread, Merge
+
+| # | Question | Key Methods |
+|---|----------|-------------|
+| 1 | Destructure `name`, `age`. Rename `city` to `location`. | destructuring, renaming |
+| 2 | Destructure nested objects to get `city` and `pin`. | nested destructuring |
+| 3 | Spread copy an object. Try nested object — is copy truly safe? | `spread`, shallow vs deep |
+| 4 | Merge `defaults` and `userPrefs` with spread (overrides pattern). | `spread` merge |
+| 5 | Destructure with default values when property is missing. | defaults `= value` |
+
+#### [grp4.js](Code/Objects/grp4.js) — Object.keys/values/entries, assign, freeze
+
+| # | Question | Key Methods |
+|---|----------|-------------|
+| 1 | Use `Object.keys()`, `Object.values()`, `Object.entries()`. | `Object.keys/values/entries` |
+| 2 | Loop over object with `Object.entries()`, print key-value pairs. | `for...of`, entries |
+| 3 | Find subject with highest score using `entries()` + `reduce`. | `entries`, `reduce` |
+| 4 | Merge objects with `Object.assign` and spread. Differences? | `Object.assign`, `spread` |
+| 5 | `Object.freeze` — modify frozen object. Strict mode vs normal. | `Object.freeze` |
+
 ### Notes
 
 | File | Covers |
 |------|--------|
 | [Objects_grp1_notes.md](Notes/Objects/Objects_grp1_notes.md) | dot vs bracket notation, dynamic access, add/update/delete, property existence checks |
+| [Objects_grp2_notes.md](Notes/Objects/Objects_grp2_notes.md) | shorthand syntax, computed keys, methods, `this` keyword, arrow vs regular functions |
+| [Objects_grp3_notes.md](Notes/Objects/Objects_grp3_notes.md) | destructuring, renaming, nested destructuring, shallow vs deep copy, defaults |
+| [Objects_grp4_notes.md](Notes/Objects/Objects_grp4_notes.md) | keys/values/entries, for...of vs for...in, Object.assign vs spread, freeze/seal |
+
+</details>
